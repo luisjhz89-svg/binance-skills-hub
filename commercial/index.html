@@ -1,0 +1,57 @@
+# Installation Guide
+
+This guide explains how to install the project for local use, automation workflows, and packaged commercial distribution.
+
+## 1. Prerequisites
+
+- Node.js 22 or newer
+- A compatible terminal environment
+- Access to the GitHub repository or the package source you intend to distribute
+
+## 2. Install the skill hub
+
+```bash
+npx skills add https://github.com/binance/binance-skills-hub
+```
+
+## 3. Install a specific skill
+
+If your environment supports path-based installation, use the repo's folder structure and install the skill you need.
+
+Example:
+
+```bash
+npx skills add https://github.com/binance/binance-skills-hub.git
+```
+
+Then select the skill you want to use from the skill catalog.
+
+## 4. Configure environment variables
+
+Some skills require API credentials or secret values. Use a secure environment variable source or a local secret file.
+
+Example:
+
+```bash
+export BINANCE_API_KEY="your_key_here"
+export BINANCE_API_SECRET="your_secret_here"
+```
+
+## 5. Local validation
+
+Before distribution or sale, validate the installation in a clean environment and confirm the package works as expected.
+
+## 6. Commercial packaging
+
+For commercial distribution, package the repo as:
+
+- a premium access package
+- a support-enabled installation bundle
+- an enterprise setup with installation scripts and onboarding docs
+
+Always keep the upstream license and distribution terms in review before publishing.
+
+## 7. Support contact
+
+Replace this section with your real support contact before public distribution.
+

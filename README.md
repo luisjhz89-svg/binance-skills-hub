@@ -1,10 +1,10 @@
 # Binance Skills Hub
 
-Binance Skills Hub is an open skills marketplace that gives AI agents native access to crypto: both centralized and decentralized. Search tokens, execute trades, track wallets, monitor signals, and interact with DeFi protocols, all through natural language.
+Binance Skills Hub is an open skills marketplace that gives AI agents native access to crypto: both centralized and decentralized. Search tokens, execute trades, track wallets, monitor signals, and manage onchain workflows through modular skills.
 
 Built by Binance. Built for everyone.
 
-We're not building this just for Binance products. Skills Hub is designed for the entire crypto ecosystem: any agent, any framework, any chain. Whether you're building on LangChain, CrewAI, or your own stack, your agents can plug into crypto with a few lines of config.
+We're not building this just for Binance products. Skills Hub is designed for the entire crypto ecosystem: any agent, any framework, any chain. Whether you're building on LangChain, CrewAI, or your own stack, the project gives your AI agents native access to crypto tooling.
 
 ---
 
@@ -36,7 +36,36 @@ npx skills add https://github.com/binance/binance-skills-hub
 
 ### Authentication
 
-For Binance Skills, certain endpoints require you to provide Binance API credentials. You can do this by setting environment variables, using a secrets file (such as `.env` or `.openclaw/secrets.env`) , or sending them directly to the agent in the chat. For more details, see the [Security](./skills/binance/spot/SKILL.md#security) section in each skill.
+For Binance Skills, certain endpoints require you to provide Binance API credentials. You can do this by setting environment variables, using a secrets file (such as `.env` or `.openclaw/secrets.env`), or using the default platform secret vault when supported.
+
+---
+
+## Commercialization
+
+This repository is ready to be packaged for commercial distribution as a premium skill catalog for individuals, developers, and enterprises.
+
+### Commercial offer
+
+The repository can be offered under the following model:
+
+- Starter: single-user license for one or more skills
+- Pro: full skill suite for developers and automation builders
+- Enterprise: custom integration, installation support, and SLA-backed assistance
+
+### Available commercial docs
+
+- `LICENSE.md` — commercial license template
+- `TERMS_OF_SERVICE.md` — terms of service
+- `PRIVACY_POLICY.md` — privacy policy
+- `REFUND_POLICY.md` — refund policy
+- `INSTALLATION.md` — installation and setup guide
+- `commercial/index.html` — landing page for sales
+
+Important: replace the placeholder payment links in the landing page with your own Mercado Pago links before publishing publicly.
+
+### Disclaimer
+
+This repository is not an official Binance product and is not endorsed or sponsored by Binance in a commercial distribution context. Any commercial use should be reviewed by legal counsel and aligned with the upstream project licensing and your own compliance process.
 
 ---
 
@@ -78,4 +107,13 @@ To add a new skill:
 
 ## Disclaimer
 
-Binance Skills Hub is an informational tool only. Binance Skills Hub and its outputs are provided to you on an “as is” and “as available” basis, without representation or warranty of any kind. It does not constitute investment, financial, trading or any other form of advice; represent a recommendation to buy, sell or hold any assets; guarantee the accuracy, timeliness or completeness of the data or analysis presented. Your use of Binance Skills Hub and any information provided in connection with this feature is at your own risk, and you are solely responsible for evaluating the information provided and for all trading decisions made by you. Binance does not endorse or guarantee any AI-generated information. Any AI-generated information or summary should not be solely relied on for decision making. AI-generated content may include or reflect information, views and opinions of third parties, and may also include errors, biases or outdated information. Binance is not responsible for any losses or damages incurred as a result of your use of or reliance on the Binance Skills Hub feature. Binance may modify or discontinue the Binance Skills Hub feature at its discretion, and functionality may vary by region or user profile. Digital asset prices are subject to high market risk and price volatility. The value of your investment may go down or up, and you may not get back the amount invested. You are solely responsible for your investment decisions and Binance is not liable for any losses you may incur. Past performance is not a reliable predictor of future performance. You should only invest in products you are familiar with and where you understand the risks. You should carefully consider your investment experience, financial situation, investment objectives and risk tolerance and consult an independent financial adviser prior to making any investment. This material should not be construed as advice. For more information, please see our [Risk Warning](https://www.binance.com/en/risk-warning) and [Terms of Use](https://www.binance.com/en/terms).
+Binance Skills Hub is an informational tool only. Binance Skills Hub and its outputs are provided to you on an "as is" and "as available" basis, without representation or warranty of any kind, express or implied. This repository is maintained as a skill collection and does not constitute financial, legal, or investment advice.
+
+---
+
+## Commercial contact
+
+Before selling or distributing this repository commercially, review the local licensing, compliance, and support requirements and update the public landing page with your payment links, support contact, and refund policy.
+
+This repository includes a basic commercial-ready starter kit to help you package the skills for sale to users, developers, and enterprise customers.
+
