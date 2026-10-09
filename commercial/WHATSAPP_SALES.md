@@ -1,6 +1,6 @@
 # WhatsApp sales message
 
-Hola, me interesa conocer más sobre Binance Skills Hub Pro.
+Hola, me interesa conocer más sobre Skills Hub Pro.
 
 Estoy buscando una solución para [usuario individual / desarrollador / empresa] y quiero evaluar si se adapta a mi caso de uso.
 

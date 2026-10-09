@@ -1,10 +1,10 @@
 # Formal Sales Pitch for Enterprise
 
-Asunto: Propuesta comercial - Binance Skills Hub Pro
+Asunto: Propuesta comercial - Skills Hub Pro
 
 Hola [Nombre],
 
-Gracias por su interés en Binance Skills Hub Pro.
+Gracias por su interés en Skills Hub Pro.
 
 Hemos preparado una propuesta comercial para apoyar a su organización en automatización, IA, integración de workflows y atención técnica para proyectos en el ecosistema crypto.
 
@@ -32,5 +32,5 @@ Si le parece, podemos agendar una llamada breve para revisar su caso de uso y re
 Quedamos atentos a su respuesta.
 
 Saludos,
-Binance Skills Hub Pro Team
+Skills Hub Pro Team
 Estudiolegalqro26@icloud.com
