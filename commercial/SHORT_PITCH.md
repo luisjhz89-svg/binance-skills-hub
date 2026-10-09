@@ -1,13 +1,14 @@
-# Short commercial pitch
+# Mensaje de WhatsApp final
 
-Skills Hub Pro es una suite premium de skills para agentes de IA y automatización en el ecosistema crypto.
+Hola, me interesa conocer más sobre Skills Hub Pro.
 
-Diseñada para:
-- usuarios que quieren automatizar tareas repetitivas
-- desarrolladores que integran IA en sus flujos
-- empresas que necesitan soporte, onboarding y procesos más eficientes
+Estoy buscando una solución para [usuario individual / desarrollador / empresa] y quiero evaluar si se adapta a mi caso de uso.
 
-Planes desde $29/mes.
-Enterprise, API Tier y soporte personalizado disponibles.
+¿Podrían enviarme información sobre:
+- planes disponibles
+- soporte incluido
+- integración
+- precios
+- versión para empresa o API?
 
-Contacto: Estudiolegalqro26@icloud.com
+Muchas gracias.

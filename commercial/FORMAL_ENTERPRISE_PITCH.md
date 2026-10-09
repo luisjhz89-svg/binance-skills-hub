@@ -1,36 +1,321 @@
-# Formal Sales Pitch for Enterprise
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills Hub Pro</title>
+    <meta
+      name="description"
+      content="Skills Hub Pro es una suite premium de skills para IA y automatización diseñada para usuarios, desarrolladores y empresas que buscan operar con mayor velocidad, precisión y eficiencia."
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="container nav">
+          <div class="brand-wrap">
+            <div class="brand-mark">S</div>
+            <span class="brand-text">Skills Hub Pro</span>
+          </div>
+          <nav>
+            <a href="#planes">Planes</a>
+            <a href="#casos">Casos</a>
+            <a href="#api">API</a>
+            <a href="#lead">Lead</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contacto">Contacto</a>
+          </nav>
+        </div>
+      </header>
 
-Asunto: Propuesta comercial - Skills Hub Pro
+      <main>
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <div class="eyebrow">Skills para IA que operan en el ecosistema digital</div>
+              <h1>Suite premium de IA y automatización para operar con mayor velocidad.</h1>
+              <p>
+                Skills Hub Pro es una suite premium de skills para IA y automatización diseñada para usuarios,
+                desarrolladores y empresas que buscan operar con mayor velocidad, precisión y eficiencia.
+                Automatiza tareas repetitivas, mejora procesos internos, integra flujos de trabajo inteligentes
+                y acelera la ejecución de tus operaciones con una solución pensada para entornos digitales modernos.
+              </p>
 
-Hola [Nombre],
+              <div class="cta-row">
+                <a class="button primary" href="#planes">Ver planes</a>
+                <a class="button secondary" href="#lead">Solicitar demo</a>
+              </div>
 
-Gracias por su interés en Skills Hub Pro.
+              <ul class="mini-list">
+                <li>Usuarios</li>
+                <li>Desarrolladores</li>
+                <li>Empresas</li>
+              </ul>
+            </div>
 
-Hemos preparado una propuesta comercial para apoyar a su organización en automatización, IA, integración de workflows y atención técnica para proyectos en el ecosistema crypto.
+            <div class="hero-card premium-panel">
+              <div class="panel-kicker">Incluye</div>
+              <ul>
+                <li>Agentic Wallet</li>
+                <li>Academy Skill</li>
+                <li>Square Post</li>
+                <li>Soporte prioritario</li>
+                <li>Integración y onboarding</li>
+              </ul>
+              <div class="price-box">
+                <span>Desde</span>
+                <strong>$29</strong>
+                <small>USD / mes</small>
+              </div>
+            </div>
+          </div>
+        </section>
 
-Nuestra solución está diseñada para equipos que necesitan:
-- automatizar tareas repetitivas
-- mejorar procesos internos
-- integrar IA y agentes con herramientas de trabajo
-- reducir tiempo de ejecución y mejorar productividad
-- contar con soporte y onboarding estructurado
+        <section class="section feature-band">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow small">Qué hace especial al producto</span>
+              <h2>Valor para cada tipo de usuario</h2>
+            </div>
 
-El enfoque recomendado para su caso es:
-- Enterprise: $499/mes
-- API Tier: desde $299/mes
+            <div class="features">
+              <article class="feature-card">
+                <div class="icon">01</div>
+                <h3>Usuarios</h3>
+                <p>Skills Hub Pro ayuda a automatizar tareas repetitivas, acelerar decisiones y mejorar la ejecución diaria con soporte inteligente.</p>
+              </article>
 
-Esto incluye:
-- acceso a la suite completa
-- soporte prioritario
-- onboarding personalizado
-- revisión de uso e integración
-- documentación técnica
-- soporte de producción
+              <article class="feature-card">
+                <div class="icon">02</div>
+                <h3>Desarrolladores</h3>
+                <p>Integra skills en agentes, herramientas internas y flujos de trabajo con un enfoque técnico, escalable y práctico.</p>
+              </article>
 
-Si le parece, podemos agendar una llamada breve para revisar su caso de uso y recomendar el mejor plan.
+              <article class="feature-card">
+                <div class="icon">03</div>
+                <h3>Empresas</h3>
+                <p>Reduce fricción operativa, mejora productividad y acompaña procesos con soporte, onboarding e integración premium.</p>
+              </article>
+            </div>
+          </div>
+        </section>
 
-Quedamos atentos a su respuesta.
+        <section id="planes" class="section dark-section">
+          <div class="container">
+            <div class="section-heading align-left">
+              <span class="eyebrow small">Planes</span>
+              <h2>Selecciona el nivel adecuado</h2>
+            </div>
 
-Saludos,
-Skills Hub Pro Team
-Estudiolegalqro26@icloud.com
+            <div class="pricing-grid">
+              <article class="plan plan-lite">
+                <h3>Lite</h3>
+                <div class="plan-price">Gratis</div>
+                <ul>
+                  <li>1 skill</li>
+                  <li>Documentación base</li>
+                  <li>Acceso limitado</li>
+                </ul>
+                <a class="button secondary" href="mailto:Estudiolegalqro26@icloud.com?subject=Solicitud%20de%20Plan%20Lite&body=Hola%2C%20quiero%20probar%20el%20plan%20Lite%20de%20Skills%20Hub%20Pro." target="_blank" rel="noreferrer">Probar gratis</a>
+              </article>
+
+              <article class="plan">
+                <h3>Starter</h3>
+                <div class="plan-price">$29<span>/mes</span></div>
+                <ul>
+                  <li>1 skill</li>
+                  <li>Documentación</li>
+                  <li>Soporte por email</li>
+                </ul>
+                <div id="paypal-container-YP3UZYGFG2KX6"></div>
+              </article>
+
+              <article class="plan plan-featured">
+                <span class="badge">Más popular</span>
+                <h3>Pro</h3>
+                <div class="plan-price">$99<span>/mes</span></div>
+                <ul>
+                  <li>Todos los skills</li>
+                  <li>Soporte prioritario</li>
+                  <li>Actualizaciones</li>
+                  <li>Guía de integración</li>
+                </ul>
+                <div id="paypal-container-C494AUURVA3JJ"></div>
+              </article>
+
+              <article class="plan plan-annual">
+                <span class="badge save">20% ahorro</span>
+                <h3>Pro Anual</h3>
+                <div class="plan-price">$950<span>/año</span></div>
+                <ul>
+                  <li>Todo el Pro</li>
+                  <li>Descuento anual</li>
+                  <li>Soporte prioritario</li>
+                  <li>2 meses gratis</li>
+                </ul>
+                <a class="button primary" href="mailto:Estudiolegalqro26@icloud.com?subject=Solicitar%20Plan%20Pro%20Anual&body=Hola%2C%20me%20interesa%20adquirir%20el%20plan%20Pro%20Anual%20de%20Skills%20Hub%20Pro." target="_blank" rel="noreferrer">Solicitar Pro Anual</a>
+              </article>
+
+              <article class="plan">
+                <h3>Enterprise</h3>
+                <div class="plan-price">$499<span>/mes</span></div>
+                <ul>
+                  <li>Todo lo de Pro</li>
+                  <li>Onboarding personalizado</li>
+                  <li>Integración custom</li>
+                  <li>SLA y soporte dedicado</li>
+                </ul>
+                <a class="button primary" href="mailto:Estudiolegalqro26@icloud.com?subject=Solicitud%20de%20presupuesto%20Enterprise&body=Hola%2C%20quisiera%20solicitar%20informaci%C3%B3n%20sobre%20el%20plan%20Enterprise%20para%20Skills%20Hub%20Pro." target="_blank" rel="noreferrer">Solicitar presupuesto</a>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="casos" class="section">
+          <div class="container">
+            <div class="section-heading align-left">
+              <span class="eyebrow small">Casos de uso</span>
+              <h2>Resultados reales para cada perfil</h2>
+            </div>
+
+            <div class="case-grid">
+              <article class="case-card">
+                <span class="case-tag">Usuario</span>
+                <h3>Automatización personal</h3>
+                <p>“Antes revisaba tareas repetitivas y análisis manualmente. Ahora el agente organiza la ejecución y el seguimiento de forma mucho más eficiente.”</p>
+                <strong>— Usuario individual</strong>
+              </article>
+
+              <article class="case-card">
+                <span class="case-tag">Desarrollador</span>
+                <h3>Integración con agentes</h3>
+                <p>“Instalamos el conjunto de skills para conectar agentes con herramientas internas y procesos clave. El tiempo de implementación bajó significativamente.”</p>
+                <strong>— Startup de IA</strong>
+              </article>
+
+              <article class="case-card">
+                <span class="case-tag">Empresa</span>
+                <h3>Onboarding y procesos</h3>
+                <p>“Creamos un flujo interno para onboarding, diagnóstico y atención con soporte inteligente, reduciendo la carga operativa del equipo.”</p>
+                <strong>— Equipo interno</strong>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="api" class="section alt-panel">
+          <div class="container api-box">
+            <div class="api-copy">
+              <span class="eyebrow small">API Tier</span>
+              <h2>API privada para alto volumen y uso profesional</h2>
+              <p>
+                Diseñada para equipos que necesitan más velocidad, más control y soporte técnico premium.
+              </p>
+              <ul class="api-list">
+                <li>Rate limits superiores</li>
+                <li>Monitoreo y soporte prioritario</li>
+                <li>Documentación técnica premium</li>
+                <li>Integración para producción</li>
+              </ul>
+            </div>
+
+            <div class="api-card premium-panel">
+              <div class="api-price">Desde $299<span>/mes</span></div>
+              <a class="button primary" href="./commercial/API_TIER.md" target="_blank" rel="noreferrer">Ver detalle</a>
+              <a class="button secondary" href="mailto:Estudiolegalqro26@icloud.com?subject=Solicitar%20API%20Tier&body=Hola%2C%20quisiera%20solicitar%20informaci%C3%B3n%20sobre%20la%20API%20Tier%20de%20Skills%20Hub%20Pro." target="_blank" rel="noreferrer">Solicitar API Tier</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="lead" class="section">
+          <div class="container lead-box">
+            <div class="lead-copy">
+              <span class="eyebrow small">Lead capture</span>
+              <h2>Cuéntanos tu caso de uso</h2>
+              <p>Si quieres un plan personalizado, una demo o ayuda con integración, te ayudamos directamente.</p>
+            </div>
+
+            <form class="lead-form" action="mailto:Estudiolegalqro26@icloud.com" method="post" enctype="text/plain">
+              <label>
+                Nombre
+                <input type="text" name="name" placeholder="Tu nombre" required />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="tu@email.com" required />
+              </label>
+              <label>
+                Empresa / perfil
+                <input type="text" name="company" placeholder="Usuario, desarrollador o empresa" />
+              </label>
+              <label>
+                Interés
+                <textarea name="interest" rows="4" placeholder="¿Qué necesitas?" required></textarea>
+              </label>
+              <button type="submit" class="button primary">Enviar solicitud</button>
+            </form>
+          </div>
+        </section>
+
+        <section id="faq" class="section">
+          <div class="container faq-wrap">
+            <div class="section-heading align-left">
+              <span class="eyebrow small">FAQ</span>
+              <h2>Preguntas frecuentes</h2>
+            </div>
+
+            <div class="faq-grid">
+              <div class="faq-item">
+                <h3>¿Es una solución oficial?</h3>
+                <p>No. Skills Hub Pro es una suite propia de skills para IA y automatización, diseñada para operar con un enfoque práctico y profesional.</p>
+              </div>
+              <div class="faq-item">
+                <h3>¿Incluye soporte?</h3>
+                <p>Sí, según el plan. La compra incluye soporte, documentación y, en planes superiores, onboarding y atención prioritaria.</p>
+              </div>
+              <div class="faq-item">
+                <h3>¿Puedo comprar para una empresa?</h3>
+                <p>Sí. El plan Enterprise está pensado para clientes con integración, soporte y atención personalizada.</p>
+              </div>
+              <div class="faq-item">
+                <h3>¿Hay reembolso?</h3>
+                <p>Sí. Ofrecemos garantía de 7 días para clientes que no estén satisfechos con el producto o la implementación.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="contacto" class="footer">
+        <div class="container footer-grid">
+          <div>
+            <div class="brand-wrap footer-brand">
+              <div class="brand-mark">S</div>
+              <span class="brand-text">Skills Hub Pro</span>
+            </div>
+            <p>Suite premium para usuarios, desarrolladores y empresas.</p>
+          </div>
+
+          <div class="footer-links">
+            <h4>Contacto y soporte</h4>
+            <p><strong>Email:</strong> Estudiolegalqro26@icloud.com</p>
+            <p><strong>Consulta 1-on-1:</strong> <a href="mailto:Estudiolegalqro26@icloud.com?subject=Agenda%20una%20llamada%201-on-1&body=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20llamada%201-on-1%20para%20revistar%20mi%20caso%20de%20uso%20con%20Skills%20Hub%20Pro.">Agendar llamada</a></p>
+            <p>Respuesta en 24 horas</p>
+            <div class="legal-links">
+              <a href="./commercial/TERMS_OF_SERVICE.md">Términos de Servicio</a>
+              <a href="./commercial/REFUND_POLICY.md">Política de Reembolso</a>
+              <a href="./commercial/PRIVACY_POLICY.md">Privacidad</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://www.paypal.com/sdk/js?client-id=BAA561SzBy1D5B71BksxTmfzDe5tYC0pps1cKGd-M6B_vm2JyR3RfselxgR2IZxLCDPlducxO2aujcNaNw&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+    <script>
+      paypal.HostedButtons({ hostedButtonId: "YP3UZYGFG2KX6" }).render("#paypal-container-YP3UZYGFG2KX6");
+      paypal.HostedButtons({ hostedButtonId: "C494AUURVA3JJ" }).render("#paypal-container-C494AUURVA3JJ");
+    </script>
+  </body>
+</html>
