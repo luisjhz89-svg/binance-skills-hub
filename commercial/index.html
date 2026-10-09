@@ -1,57 +1,192 @@
-# Installation Guide
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binance Skills Hub Pro</title>
+    <meta
+      name="description"
+      content="Premium access to AI skills for crypto automation, wallet workflows, education, and developer tooling."
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">Binance Skills Hub Pro</div>
+        <nav>
+          <a href="#planes">Planes</a>
+          <a href="#beneficios">Beneficios</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
 
-This guide explains how to install the project for local use, automation workflows, and packaged commercial distribution.
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Premium access</span>
+            <h1>Skills para agentes de IA en el ecosistema crypto.</h1>
+            <p>
+              Accede a un pack completo de habilidades para automatizar wallet
+              workflows, herramientas de trading, contenido educativo y utilidades
+              para desarrolladores.
+            </p>
+            <div class="cta-row">
+              <a class="button primary" href="#planes">Ver planes</a>
+              <a class="button secondary" href="#contacto">Solicitar soporte</a>
+            </div>
+            <ul class="mini-list">
+              <li>Usuarios</li>
+              <li>Desarrolladores</li>
+              <li>Empresas</li>
+            </ul>
+          </div>
 
-## 1. Prerequisites
+          <div class="hero-card">
+            <div class="card-header">Incluye</div>
+            <ul>
+              <li>Agentic Wallet</li>
+              <li>Academy Skill</li>
+              <li>Square Post</li>
+              <li>Soporte básico</li>
+              <li>Documentación de instalación</li>
+            </ul>
+            <div class="price-box">
+              <span>Desde</span>
+              <strong>$29</strong>
+              <small>USD / mes</small>
+            </div>
+          </div>
+        </div>
+      </section>
 
-- Node.js 22 or newer
-- A compatible terminal environment
-- Access to the GitHub repository or the package source you intend to distribute
+      <section id="beneficios" class="section">
+        <div class="container">
+          <h2>¿Qué incluye?</h2>
+          <div class="features">
+            <div class="feature">
+              <h3>Usuarios</h3>
+              <p>Automatiza tareas de gestión de wallet, búsqueda y educación crypto.</p>
+            </div>
+            <div class="feature">
+              <h3>Desarrolladores</h3>
+              <p>Integra skills en agentes, herramientas internas y flujos de trabajo.</p>
+            </div>
+            <div class="feature">
+              <h3>Empresas</h3>
+              <p>Instalación, soporte, integración custom y paquetes a medida.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-## 2. Install the skill hub
+      <section id="planes" class="section alt">
+        <div class="container">
+          <h2>Planes</h2>
+          <div class="pricing-grid">
+            <article class="plan">
+              <h3>Starter</h3>
+              <div class="plan-price">$29<span>/mes</span></div>
+              <ul>
+                <li>1 skill a elegir</li>
+                <li>Documentación</li>
+                <li>Soporte por email</li>
+              </ul>
+              <div id="paypal-container-YP3UZYGFG2KX6"></div>
+            </article>
 
-```bash
-npx skills add https://github.com/binance/binance-skills-hub
-```
+            <article class="plan featured">
+              <span class="badge">Más popular</span>
+              <h3>Pro</h3>
+              <div class="plan-price">$99<span>/mes</span></div>
+              <ul>
+                <li>Todos los skills</li>
+                <li>Soporte prioritario</li>
+                <li>Actualizaciones</li>
+                <li>Guía de integración</li>
+              </ul>
+              <div id="paypal-container-C494AUURVA3JJ"></div>
+            </article>
 
-## 3. Install a specific skill
+            <article class="plan">
+              <h3>Enterprise</h3>
+              <div class="plan-price">$499<span>/mes</span></div>
+              <ul>
+                <li>Todo lo de Pro</li>
+                <li>Onboarding personalizado</li>
+                <li>Integración custom</li>
+                <li>SLA y soporte dedicado</li>
+              </ul>
+              <div id="paypal-container-C494AUURVA3JJ-ENT"></div>
+            </article>
+          </div>
+        </div>
+      </section>
 
-If your environment supports path-based installation, use the repo's folder structure and install the skill you need.
+      <section id="faq" class="section">
+        <div class="container faq">
+          <h2>FAQ</h2>
+          <div class="faq-item">
+            <h3>¿Es un producto oficial de Binance?</h3>
+            <p>No. Es un paquete comercial basado en un conjunto de skills y herramientas de automatización para agentes de IA. Debe revisarse la licencia upstream antes de distribución comercial final.</p>
+          </div>
+          <div class="faq-item">
+            <h3>¿Incluye soporte?</h3>
+            <p>Sí, según el plan. El soporte se entrega dentro del paquete comprado.</p>
+          </div>
+          <div class="faq-item">
+            <h3>¿Puedo comprar para una empresa?</h3>
+            <p>Sí. El plan Enterprise está pensado para clientes con integración, soporte y onboarding custom.</p>
+          </div>
+          <div class="faq-item">
+            <h3>¿Qué pasa después de comprar?</h3>
+            <p>Después de completar el pago, recibirás un email de confirmación con instrucciones de instalación y acceso al repositorio.</p>
+          </div>
+          <div class="faq-item">
+            <h3>¿Hay garantía de reembolso?</h3>
+            <p>Sí. Ofrecemos 7 días de garantía de reembolso si no estás satisfecho. Consulta nuestra política de reembolso.</p>
+          </div>
+        </div>
+      </section>
+    </main>
 
-Example:
+    <footer id="contacto" class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Binance Skills Hub Pro</h3>
+          <p>Paquete premium para usuarios, desarrolladores y empresas.</p>
+        </div>
+        <div>
+          <h4>Contacto y Soporte</h4>
+          <p><strong>Email:</strong> Estudiolegalqro26@icloud.com</p>
+          <p>Respuesta en 24 horas</p>
+          <p style="margin-top: 12px; font-size: 0.85rem; color: #aebdff;">
+            <a href="./TERMS_OF_SERVICE.md" style="color: #7c7cff; text-decoration: none;">Términos de Servicio</a> | 
+            <a href="./REFUND_POLICY.md" style="color: #7c7cff; text-decoration: none;">Política de Reembolso</a> | 
+            <a href="./PRIVACY_POLICY.md" style="color: #7c7cff; text-decoration: none;">Privacidad</a>
+          </p>
+        </div>
+      </div>
+    </footer>
 
-```bash
-npx skills add https://github.com/binance/binance-skills-hub.git
-```
+    <script
+      src="https://www.paypal.com/sdk/js?client-id=BAA561SzBy1D5B71BksxTmfzDe5tYC0pps1cKGd-M6B_vm2JyR3RfselxgR2IZxLCDPlducxO2aujcNaNw&components=hosted-buttons&disable-funding=venmo&currency=USD">
+    </script>
+    <script>
+      paypal.HostedButtons({
+        hostedButtonId: "YP3UZYGFG2KX6",
+      }).render("#paypal-container-YP3UZYGFG2KX6");
 
-Then select the skill you want to use from the skill catalog.
+      paypal.HostedButtons({
+        hostedButtonId: "C494AUURVA3JJ",
+      }).render("#paypal-container-C494AUURVA3JJ");
 
-## 4. Configure environment variables
-
-Some skills require API credentials or secret values. Use a secure environment variable source or a local secret file.
-
-Example:
-
-```bash
-export BINANCE_API_KEY="your_key_here"
-export BINANCE_API_SECRET="your_secret_here"
-```
-
-## 5. Local validation
-
-Before distribution or sale, validate the installation in a clean environment and confirm the package works as expected.
-
-## 6. Commercial packaging
-
-For commercial distribution, package the repo as:
-
-- a premium access package
-- a support-enabled installation bundle
-- an enterprise setup with installation scripts and onboarding docs
-
-Always keep the upstream license and distribution terms in review before publishing.
-
-## 7. Support contact
-
-Replace this section with your real support contact before public distribution.
-
+      paypal.HostedButtons({
+        hostedButtonId: "C494AUURVA3JJ",
+      }).render("#paypal-container-C494AUURVA3JJ-ENT");
+    </script>
+  </body>
+</html>
